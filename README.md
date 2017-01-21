@@ -2,6 +2,10 @@
 
 Real-time voice translator using IBM watson and Google Translation.
 
+## DEMO 
+* It only works on desktop.
+* https://mamago.mybluemix.net/ 
+
 ## Configuration
 
 ```
@@ -27,10 +31,10 @@ module.exports = {
 };
 ```
 
-# run locally
+## run locally
 ```
 npm install
 npm start
 ````
 
-Access the running app in a browser at http://localhost:3000
+Access the running app in a browser at http://localhost:6001
