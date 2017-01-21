@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAMAGO LOVES PAPAGO</title>
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+<style>body{background-color:#cc3836}</style>
+</head>
+<body>
+<app></app>
+<script src="js/watson-speech.js"></script>
+<script type="riot/tag" src="app.tag"></script>
+<script type="riot/tag" src="tags/welcome.tag"></script>
+<script type="riot/tag" src="tags/translation.tag"></script>
+<script src="js/watson.js"></script>
+<script src="js/google.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.3.2/superagent.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.0.7/riot+compiler.min.js"></script>
+<script>
+	riot.mount("app", {
+		watson: new Watson(),
+		google: new Google()
+	});
+</script>
+</body>
+</html>
