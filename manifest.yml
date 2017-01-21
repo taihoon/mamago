@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: mamago
+  host: mamago
+  disk_quota: 1024M
+  services:
+  - Speech To Text-l5
+  - availability-monitoring-auto

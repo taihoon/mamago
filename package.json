@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www"
+  },
+  "engines": {
+	"node": "4.x"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -12,6 +15,7 @@
     "express": "~4.14.0",
     "morgan": "~1.7.0",
     "nodemon": "^1.11.0",
-    "watson-developer-cloud": "^2.15.2"
+    "watson-developer-cloud": "^2.15.2",
+	"cfenv": "1.0.x"
   }
 }
